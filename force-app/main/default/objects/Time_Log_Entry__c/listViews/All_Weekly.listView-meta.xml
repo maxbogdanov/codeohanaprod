@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Weekly</fullName>
+    <columns>NAME</columns>
+    <columns>Project_Assignment__c</columns>
+    <columns>Total_Hours__c</columns>
+    <columns>Period_Start_Date__c</columns>
+    <columns>Period_End_Date__c</columns>
+    <columns>Approval_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Time_Log_Entry__c.Weekly</value>
+    </filters>
+    <label>All Weekly</label>
+</ListView>

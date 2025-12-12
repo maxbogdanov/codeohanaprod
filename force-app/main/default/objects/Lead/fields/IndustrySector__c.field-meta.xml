@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IndustrySector__c</fullName>
+    <label>Industry Sector</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>IndustryCategory__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>IndustrySector</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Transportation and Logistics</controllingFieldValue>
+            <valueName>Import &amp; Export</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportation and Logistics</controllingFieldValue>
+            <valueName>Logistics &amp; Supply Chain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportation and Logistics</controllingFieldValue>
+            <valueName>Maritime</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportation and Logistics</controllingFieldValue>
+            <valueName>Package/Freight Delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportation and Logistics</controllingFieldValue>
+            <valueName>Transportation/Trucking/Railroad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transportation and Logistics</controllingFieldValue>
+            <valueName>Warehousing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Entertainment</controllingFieldValue>
+            <valueName>Animation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Entertainment</controllingFieldValue>
+            <valueName>Broadcast Media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Entertainment</controllingFieldValue>
+            <valueName>Computer Games</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Entertainment</controllingFieldValue>
+            <valueName>Entertainment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Entertainment</controllingFieldValue>
+            <valueName>Media Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Entertainment</controllingFieldValue>
+            <valueName>Mobile Games</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Entertainment</controllingFieldValue>
+            <valueName>Motion Pictures &amp; Film</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Entertainment</controllingFieldValue>
+            <valueName>Music</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wellness and Fitness</controllingFieldValue>
+            <valueName>Alternative Medicine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wellness and Fitness</controllingFieldValue>
+            <valueName>Health, Wellness &amp; Fitness</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public Safety</controllingFieldValue>
+            <valueName>Law Enforcement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public Safety</controllingFieldValue>
+            <valueName>Military</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public Safety</controllingFieldValue>
+            <valueName>Public Safety</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public administration</controllingFieldValue>
+            <valueName>Government Administration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public administration</controllingFieldValue>
+            <valueName>Government Relations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public administration</controllingFieldValue>
+            <valueName>International Affairs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public administration</controllingFieldValue>
+            <valueName>Judiciary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public administration</controllingFieldValue>
+            <valueName>Legislative Office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public administration</controllingFieldValue>
+            <valueName>Political Organization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Public administration</controllingFieldValue>
+            <valueName>Public Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recreation and Travel</controllingFieldValue>
+            <valueName>Airlines/Aviation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recreation and Travel</controllingFieldValue>
+            <valueName>Gambling &amp; Casinos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recreation and Travel</controllingFieldValue>
+            <valueName>Hospitality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recreation and Travel</controllingFieldValue>
+            <valueName>Leisure, Travel &amp; Tourism</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recreation and Travel</controllingFieldValue>
+            <valueName>Restaurants</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recreation and Travel</controllingFieldValue>
+            <valueName>Recreational Facilities &amp; Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recreation and Travel</controllingFieldValue>
+            <valueName>Sports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arts</controllingFieldValue>
+            <valueName>Arts &amp; Crafts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arts</controllingFieldValue>
+            <valueName>Fine Art</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arts</controllingFieldValue>
+            <valueName>Performing Arts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arts</controllingFieldValue>
+            <valueName>Photography</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare</controllingFieldValue>
+            <valueName>Biotechnology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare</controllingFieldValue>
+            <valueName>Hospital &amp; Health Care</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare</controllingFieldValue>
+            <valueName>Medical Device</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare</controllingFieldValue>
+            <valueName>Medical Practice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare</controllingFieldValue>
+            <valueName>Mental Health Care</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare</controllingFieldValue>
+            <valueName>Pharmaceuticals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Healthcare</controllingFieldValue>
+            <valueName>Veterinary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware and Networking</controllingFieldValue>
+            <valueName>Computer Hardware</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware and Networking</controllingFieldValue>
+            <valueName>Computer Networking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware and Networking</controllingFieldValue>
+            <valueName>Nanotechnology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware and Networking</controllingFieldValue>
+            <valueName>Semiconductors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware and Networking</controllingFieldValue>
+            <valueName>Telecommunications</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardware and Networking</controllingFieldValue>
+            <valueName>Wireless</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Real Estate</controllingFieldValue>
+            <valueName>Commercial Real Estate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Real Estate</controllingFieldValue>
+            <valueName>Real Estate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>Alternative Dispute Resolution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>Law Practice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>Legal Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Goods</controllingFieldValue>
+            <valueName>Apparel &amp; Fashion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Goods</controllingFieldValue>
+            <valueName>Consumer Electronics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Goods</controllingFieldValue>
+            <valueName>Consumer Goods</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Goods</controllingFieldValue>
+            <valueName>Consumer Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Goods</controllingFieldValue>
+            <valueName>Cosmetics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Goods</controllingFieldValue>
+            <valueName>Food &amp; Beverages</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Goods</controllingFieldValue>
+            <valueName>Furniture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Goods</controllingFieldValue>
+            <valueName>Luxury Goods &amp; Jewelry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Goods</controllingFieldValue>
+            <valueName>Sporting Goods</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consumer Goods</controllingFieldValue>
+            <valueName>Tobacco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agriculture</controllingFieldValue>
+            <valueName>Dairy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agriculture</controllingFieldValue>
+            <valueName>Farming</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agriculture</controllingFieldValue>
+            <valueName>Fishery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agriculture</controllingFieldValue>
+            <valueName>Ranching</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media and Communications</controllingFieldValue>
+            <valueName>Market Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media and Communications</controllingFieldValue>
+            <valueName>Marketing &amp; Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media and Communications</controllingFieldValue>
+            <valueName>Newspapers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media and Communications</controllingFieldValue>
+            <valueName>Online Media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media and Communications</controllingFieldValue>
+            <valueName>Printing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media and Communications</controllingFieldValue>
+            <valueName>Public Relations &amp; Communications</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media and Communications</controllingFieldValue>
+            <valueName>Publishing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media and Communications</controllingFieldValue>
+            <valueName>Translation &amp; Localization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Media and Communications</controllingFieldValue>
+            <valueName>Writing &amp; Editing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education</controllingFieldValue>
+            <valueName>Education Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education</controllingFieldValue>
+            <valueName>E-Learning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education</controllingFieldValue>
+            <valueName>Higher Education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education</controllingFieldValue>
+            <valueName>Primary/Secondary Education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education</controllingFieldValue>
+            <valueName>Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <valueName>Building Materials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <valueName>Civil Engineering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction</controllingFieldValue>
+            <valueName>Construction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Design</controllingFieldValue>
+            <valueName>Architecture &amp; Planning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Design</controllingFieldValue>
+            <valueName>Design</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Design</controllingFieldValue>
+            <valueName>Graphic Design</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate Services</controllingFieldValue>
+            <valueName>Accounting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate Services</controllingFieldValue>
+            <valueName>Business Supplies &amp; Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate Services</controllingFieldValue>
+            <valueName>Environmental Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate Services</controllingFieldValue>
+            <valueName>Events Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate Services</controllingFieldValue>
+            <valueName>Executive Office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate Services</controllingFieldValue>
+            <valueName>Facilities Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate Services</controllingFieldValue>
+            <valueName>Human Resources</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate Services</controllingFieldValue>
+            <valueName>Information Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate Services</controllingFieldValue>
+            <valueName>Management Consulting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate Services</controllingFieldValue>
+            <valueName>Outsourcing/Offshoring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate Services</controllingFieldValue>
+            <valueName>Professional Training &amp; Coaching</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate Services</controllingFieldValue>
+            <valueName>Security &amp; Investigations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Corporate Services</controllingFieldValue>
+            <valueName>Staffing &amp; Recruiting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Retail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Supermarkets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Wholesale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy and Mining</controllingFieldValue>
+            <valueName>Mining &amp; Metals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy and Mining</controllingFieldValue>
+            <valueName>Oil &amp; Energy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy and Mining</controllingFieldValue>
+            <valueName>Utilities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Automotive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Aviation &amp; Aerospace</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Chemicals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Defense &amp; Space</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Electrical &amp; Electronic Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Food Production</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Glass, Ceramics &amp; Concrete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Industrial Automation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Machinery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Mechanical or Industrial Engineering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Packaging &amp; Containers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Paper &amp; Forest Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Plastics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Railroad Manufacture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Renewables &amp; Environment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Shipbuilding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance</controllingFieldValue>
+            <valueName>Banking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance</controllingFieldValue>
+            <valueName>Capital Markets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance</controllingFieldValue>
+            <valueName>Financial Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance</controllingFieldValue>
+            <valueName>Insurance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance</controllingFieldValue>
+            <valueName>Investment Banking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance</controllingFieldValue>
+            <valueName>Investment Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finance</controllingFieldValue>
+            <valueName>Venture Capital &amp; Private Equity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nonprofit</controllingFieldValue>
+            <valueName>Civic &amp; Social Organization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nonprofit</controllingFieldValue>
+            <valueName>Fundraising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nonprofit</controllingFieldValue>
+            <valueName>Individual &amp; Family Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nonprofit</controllingFieldValue>
+            <valueName>International Trade &amp; Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nonprofit</controllingFieldValue>
+            <valueName>Libraries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nonprofit</controllingFieldValue>
+            <valueName>Museums &amp; Institutions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nonprofit</controllingFieldValue>
+            <valueName>Non-Profit Organization Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nonprofit</controllingFieldValue>
+            <valueName>Philanthropy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nonprofit</controllingFieldValue>
+            <valueName>Program Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nonprofit</controllingFieldValue>
+            <valueName>Religious Institutions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nonprofit</controllingFieldValue>
+            <valueName>Think Tanks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software and IT Services</controllingFieldValue>
+            <valueName>Computer &amp; Network Security</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software and IT Services</controllingFieldValue>
+            <valueName>Computer Software</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software and IT Services</controllingFieldValue>
+            <valueName>Information Technology &amp; Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Software and IT Services</controllingFieldValue>
+            <valueName>Internet</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
