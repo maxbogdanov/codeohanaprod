@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Notify_Responsible</name>
+        <label>Notify Responsible</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>ResponsiblePersons</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Code Ohana: Check New Lead from Consultancy Listing!</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>EmailNotification</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <apiVersion>63.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>CheckLeadSourse</name>
+        <label>CheckLeadSourse</label>
+        <locationX>182</locationX>
+        <locationY>323</locationY>
+        <defaultConnectorLabel>Other</defaultConnectorLabel>
+        <rules>
+            <name>CheckLeadSourse_ConsultancyListing</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.LeadSource</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Code Ohana: Salesforce Strategy &amp; Solutions for Business Success</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Notify_Responsible</targetReference>
+            </connector>
+            <label>Consultancy Listing</label>
+        </rules>
+    </decisions>
+    <description>Notify Code Ohana&apos;s responsible persons about the new lead coming from the AppExchange Consultancy listing.</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>LeadLink</name>
+        <dataType>String</dataType>
+        <expression>LEFT({!$Api.Partner_Server_URL_340},FIND(&quot;/services&quot;, {!$Api.Partner_Server_URL_340})) &amp; {!$Record.Id}</expression>
+    </formulas>
+    <interviewLabel>Lead {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Record-Trigger: Lead After Save</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>CheckLeadSourse</targetReference>
+        </connector>
+        <object>Lead</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Draft</status>
+    <textTemplates>
+        <name>EmailNotification</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hello team,
+You just got a new lead from the Code Ohana consultancy listing:
+
+Lead Name: {!$Record.FirstName} {!$Record.LastName}
+Lead Company: {!$Record.Company}
+Check the Lead: {!LeadLink}
+
+Best Regards.</text>
+    </textTemplates>
+    <variables>
+        <name>ResponsiblePersons</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue>sales@codeohana.com, maksim.bahdanau@codeohana.com</stringValue>
+        </value>
+    </variables>
+</Flow>

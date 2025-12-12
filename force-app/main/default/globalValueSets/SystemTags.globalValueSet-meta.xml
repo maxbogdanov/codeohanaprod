@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Active Directory</fullName>
+        <default>false</default>
+        <label>Active Directory</label>
+    </customValue>
+    <customValue>
+        <fullName>Afas</fullName>
+        <default>false</default>
+        <label>Afas</label>
+    </customValue>
+    <customValue>
+        <fullName>Apple (IOS, MacOS)</fullName>
+        <default>false</default>
+        <label>Apple (IOS, MacOS)</label>
+    </customValue>
+    <customValue>
+        <fullName>Azure</fullName>
+        <default>false</default>
+        <label>Azure</label>
+    </customValue>
+    <customValue>
+        <fullName>Cerner SAP</fullName>
+        <default>false</default>
+        <label>Cerner SAP</label>
+    </customValue>
+    <customValue>
+        <fullName>Chipsoft HiX</fullName>
+        <default>false</default>
+        <label>Chipsoft HiX</label>
+    </customValue>
+    <customValue>
+        <fullName>Cisco (meraki)</fullName>
+        <default>false</default>
+        <label>Cisco (meraki)</label>
+    </customValue>
+    <customValue>
+        <fullName>Citrix</fullName>
+        <default>false</default>
+        <label>Citrix</label>
+    </customValue>
+    <customValue>
+        <fullName>CSC Care Solution</fullName>
+        <default>false</default>
+        <label>CSC Care Solution</label>
+    </customValue>
+    <customValue>
+        <fullName>EPD</fullName>
+        <default>false</default>
+        <label>EPD</label>
+    </customValue>
+    <customValue>
+        <fullName>EPIC</fullName>
+        <default>false</default>
+        <label>EPIC</label>
+    </customValue>
+    <customValue>
+        <fullName>Exact</fullName>
+        <default>false</default>
+        <label>Exact</label>
+    </customValue>
+    <customValue>
+        <fullName>Fortigate</fullName>
+        <default>false</default>
+        <label>Fortigate</label>
+    </customValue>
+    <customValue>
+        <fullName>Hyper V</fullName>
+        <default>false</default>
+        <label>Hyper V</label>
+    </customValue>
+    <customValue>
+        <fullName>Hubspot</fullName>
+        <default>false</default>
+        <label>Hubspot</label>
+    </customValue>
+    <customValue>
+        <fullName>JAMF</fullName>
+        <default>false</default>
+        <label>JAMF</label>
+    </customValue>
+    <customValue>
+        <fullName>Jira</fullName>
+        <default>false</default>
+        <label>Jira</label>
+    </customValue>
+    <customValue>
+        <fullName>Linux</fullName>
+        <default>false</default>
+        <label>Linux</label>
+    </customValue>
+    <customValue>
+        <fullName>Low-code</fullName>
+        <default>false</default>
+        <label>Low-code</label>
+    </customValue>
+    <customValue>
+        <fullName>Mendix</fullName>
+        <default>false</default>
+        <label>Mendix</label>
+    </customValue>
+    <customValue>
+        <fullName>Microsoft</fullName>
+        <default>false</default>
+        <label>Microsoft</label>
+    </customValue>
+    <customValue>
+        <fullName>Microsoft Dynamics</fullName>
+        <default>false</default>
+        <label>Microsoft Dynamics</label>
+    </customValue>
+    <customValue>
+        <fullName>Microsoft Power Platform</fullName>
+        <default>false</default>
+        <label>Microsoft Power Platform</label>
+    </customValue>
+    <customValue>
+        <fullName>Microsoft Teams</fullName>
+        <default>false</default>
+        <label>Microsoft Teams</label>
+    </customValue>
+    <customValue>
+        <fullName>Nexus ZIS/EPD</fullName>
+        <default>false</default>
+        <label>Nexus ZIS/EPD</label>
+    </customValue>
+    <customValue>
+        <fullName>ONS</fullName>
+        <default>false</default>
+        <label>ONS</label>
+    </customValue>
+    <customValue>
+        <fullName>Powershell</fullName>
+        <default>false</default>
+        <label>Powershell</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce</fullName>
+        <default>false</default>
+        <label>Salesforce</label>
+    </customValue>
+    <customValue>
+        <fullName>SAP</fullName>
+        <default>false</default>
+        <label>SAP</label>
+    </customValue>
+    <customValue>
+        <fullName>Servicenow</fullName>
+        <default>false</default>
+        <label>Servicenow</label>
+    </customValue>
+    <customValue>
+        <fullName>Topdesk</fullName>
+        <default>false</default>
+        <label>Topdesk</label>
+    </customValue>
+    <customValue>
+        <fullName>Veeam</fullName>
+        <default>false</default>
+        <label>Veeam</label>
+    </customValue>
+    <customValue>
+        <fullName>Visma</fullName>
+        <default>false</default>
+        <label>Visma</label>
+    </customValue>
+    <customValue>
+        <fullName>Vmware</fullName>
+        <default>false</default>
+        <label>Vmware</label>
+    </customValue>
+    <customValue>
+        <fullName>Voip</fullName>
+        <default>false</default>
+        <label>Voip</label>
+    </customValue>
+    <customValue>
+        <fullName>Zendesk</fullName>
+        <default>false</default>
+        <label>Zendesk</label>
+    </customValue>
+    <masterLabel>System Tags</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
